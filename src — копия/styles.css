@@ -1,0 +1,85 @@
+body {
+  position: relative;
+  top: 50px;
+}
+.city {
+  color: cornflowerblue;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 50px;
+}
+h2 {
+  position: relative;
+  top: 30px;
+  font-size: 40px;
+}
+h3 {
+  position: relative;
+  top: 30px;
+}
+h4 {
+  position: relative;
+  top: 30px;
+}
+.search-button {
+  display: block;
+  color: #f73d93;
+  background: white;
+  font-size: 16px;
+  border: 1px solid #f73d93;
+  border-radius: 30px;
+  padding: 10px 15px;
+  transition: all 200ms ease-in-out;
+  float: right;
+  position: relative;
+  bottom: 45px;
+  right: -100px;
+}
+:hover.search-button {
+  color: white;
+  background: #f73d93;
+  cursor: pointer;
+}
+.search-bar {
+  width: 80%;
+  position: relative;
+  bottom: 5px;
+}
+.weekly-forecast {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.day,
+.time {
+  position: relative;
+  top: 2px;
+  left: 10px;
+  padding: 5px;
+  color: #f73d93;
+  font-size: 19px;
+}
+.card {
+  padding: 10px;
+  margin: 10px 20px;
+}
+.weekly-forecast {
+  color: #f73d93;
+  position: absolute;
+  top: 10px;
+}
+p {
+  color: black;
+  font-size: 23px;
+}
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 17px;
+}
